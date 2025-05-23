@@ -27,7 +27,7 @@ export default function HeroSection() {
                   Register Now
                 </Button>
               </Link>
-              <Link href="#contact">
+              <Link href="/contact">
                 <Button size="lg" variant="outline" className="w-full sm:w-auto">
                   Contact Us
                 </Button>

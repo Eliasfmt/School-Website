@@ -23,7 +23,7 @@ export default function Header() {
 
         <div className="flex items-center">
           <Image
-            src="/placeholder.svg?height=40&width=40"
+            src="/images/Logoimage.png"
             width={40}
             height={40}
             alt="LIttle Steps and Palabras Pre-School Logo"
@@ -47,7 +47,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="#programs" className="text-sm font-medium hover:text-primary">
+              <Link href="/programs" className="text-sm font-medium hover:text-primary">
                 Programs
               </Link>
             </li>
@@ -56,6 +56,9 @@ export default function Header() {
                 Tuition
               </Link>
             </li>
+          <li><Link href="#about" className="text-sm font-medium hover:text-primary">About Us</Link></li>
+          <li><Link href="#staff" className="text-sm font-medium hover:text-primary">Staff</Link></li>
+          <li><Link href="#gallery" className="text-sm font-medium hover:text-primary">Gallery</Link></li>
             <li>
               <Link href="/register">
                 <Button size="sm" variant="default" className="bg-primary hover:bg-primary/90">
@@ -120,15 +123,7 @@ export default function Header() {
                 Tuition
               </Link>
             </li>
-            <li>
-              <Link
-                href="/register"
-                className="block py-2 text-lg font-medium hover:text-primary"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Register Now
-              </Link>
-            </li>
+
             <li>
               <Link
                 href="#about"
@@ -156,6 +151,17 @@ export default function Header() {
                 Gallery
               </Link>
             </li>
+
+            <li>
+              <Link
+                href="/register"
+                className="block py-2 text-lg font-medium hover:text-primary"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Register Now
+              </Link>
+            </li>
+
           </ul>
         </nav>
       </div>

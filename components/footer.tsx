@@ -51,7 +51,7 @@ export default function Footer() {
             </div>
             <div className="mt-6">
               <Link
-                href="#contact"
+                href="/contact"
                 className="rounded-md bg-white px-4 py-2 text-primary transition-colors hover:bg-primary-foreground"
               >
                 Contact Us
