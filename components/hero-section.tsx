@@ -9,7 +9,7 @@ export default function HeroSection() {
         <div className="grid items-center gap-8 md:grid-cols-2">
           <div className="text-center md:text-left">
             <h1 className="mb-4 text-3xl font-bold text-primary md:text-4xl lg:text-5xl">
-              Welcome to Sunlight Bilingual Preschool
+              LITTLE STEPS AND PALABRAS PRE-SCHOOL
             </h1>
             <p className="mb-6 text-lg text-muted-foreground md:text-xl">
               Where children learn, grow, and thrive in two languages.
@@ -33,7 +33,7 @@ export default function HeroSection() {
           <div className="mt-8 md:mt-0">
             <div className="overflow-hidden rounded-2xl shadow-lg">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="/images/preschool_rainbow_kids_web.png"
                 width={800}
                 height={600}
                 alt="Smiling children holding colorful books"

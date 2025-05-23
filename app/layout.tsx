@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Sunlight Bilingual Preschool",
+  title: "Little Steps and palabras Pre-school",
   description: "A warm and nurturing bilingual preschool for children ages 2-5",
     generator: 'v0.dev'
 }

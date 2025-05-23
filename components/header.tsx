@@ -26,11 +26,11 @@ export default function Header() {
             src="/placeholder.svg?height=40&width=40"
             width={40}
             height={40}
-            alt="Sunlight Bilingual Preschool Logo"
+            alt="LIttle Steps and Palabras Pre-School Logo"
             className="mr-2"
           />
           <Link href="/" className="text-lg font-bold text-primary md:text-xl">
-            Sunlight Bilingual Preschool
+            LIttle Steps and Palabras Pre-School
           </Link>
         </div>
 

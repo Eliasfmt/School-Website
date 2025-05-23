@@ -7,16 +7,16 @@ export default function Footer() {
       <div className="container mx-auto px-4 py-12">
         <div className="grid gap-8 md:grid-cols-3">
           <div>
-            <h3 className="mb-4 text-xl font-bold">Sunlight Bilingual Preschool</h3>
-            <p className="mb-2">123 Education Lane</p>
-            <p className="mb-2">Anytown, ST 12345</p>
+            <h3 className="mb-4 text-xl font-bold">LIttle Steps and Palabras Pre-School</h3>
+            <p className="mb-2">1033 E 250 N</p>
+            <p className="mb-2">Bountiful, UT 84010</p>
             <div className="mt-4 flex items-center">
               <Phone className="mr-2 h-4 w-4" />
-              <span>(123) 456-7890</span>
+              <span>801-919-9228</span>
             </div>
             <div className="mt-2 flex items-center">
               <Mail className="mr-2 h-4 w-4" />
-              <span>info@sunlightpreschool.com</span>
+              <span>info@LittleStepsandPalabras.com</span>
             </div>
           </div>
 
@@ -61,7 +61,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 border-t border-white/20 pt-6 text-center">
-          <p>&copy; {new Date().getFullYear()} Sunlight Bilingual Preschool. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} LIttle Steps and Palabras Pre-School. All rights reserved.</p>
         </div>
       </div>
     </footer>
