@@ -107,7 +107,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="#programs"
+                href="/programs"
                 className="block py-2 text-lg font-medium hover:text-primary"
                 onClick={() => setIsMenuOpen(false)}
               >
