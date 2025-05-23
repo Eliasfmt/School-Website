@@ -1,4 +1,4 @@
-import Header from "@/components/header"
+// import Header from "@/components/header"
 import HeroSection from "@/components/hero-section"
 import RegistrationForm from "@/components/registration-form"
 import Footer from "@/components/footer"
@@ -6,7 +6,7 @@ import Footer from "@/components/footer"
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-rose-100">
-      <Header />
+      {/* <Header /> */}
       <HeroSection />
 
      <section className="container mx-auto px-4 py-12 text-center">
@@ -51,13 +51,6 @@ export default function Home() {
 
   </div>
 </section>
-
-      <section id="register" className="bg-pastel-blue py-12">
-        <div className="container mx-auto px-4">
-          <h2 className="mb-8 text-center text-2xl font-bold text-primary md:text-3xl">Register Now</h2>
-          <RegistrationForm />
-        </div>
-      </section>
 
       <section className="container mx-auto px-4 py-12">
         <h2 className="mb-8 text-center text-2xl font-bold text-primary md:text-3xl">Why Choose Us?</h2>

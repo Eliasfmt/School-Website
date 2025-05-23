@@ -30,7 +30,7 @@ export default function Header() {
             className="mr-2"
           />
           <Link href="/" className="text-lg font-bold text-primary md:text-xl">
-            LIttle Steps and Palabras Pre-School
+            Little Steps and Palabras Pre-School
           </Link>
         </div>
 
@@ -42,7 +42,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="#curriculum" className="text-sm font-medium hover:text-primary">
+              <Link href="/curriculum" className="text-sm font-medium hover:text-primary">
                 Curriculum
               </Link>
             </li>
@@ -57,7 +57,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="#register">
+              <Link href="/register">
                 <Button size="sm" variant="default" className="bg-primary hover:bg-primary/90">
                   Register Now
                 </Button>
@@ -95,7 +95,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="#curriculum"
+                href="/curriculum"
                 className="block py-2 text-lg font-medium hover:text-primary"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -122,7 +122,7 @@ export default function Header() {
             </li>
             <li>
               <Link
-                href="#register"
+                href="/register"
                 className="block py-2 text-lg font-medium hover:text-primary"
                 onClick={() => setIsMenuOpen(false)}
               >

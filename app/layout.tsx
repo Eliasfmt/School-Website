@@ -1,29 +1,28 @@
-import type React from "react"
-import type { Metadata } from "next"
-import { Inter } from "next/font/google"
-import "./globals.css"
-import { ThemeProvider } from "@/components/theme-provider"
+import "../styles/globals.css"; // ✅ CORRECTED import path
 
-const inter = Inter({ subsets: ["latin"] })
+import { Inter } from "next/font/google";
+import ClientLayout from "./ClientLayout";
 
-export const metadata: Metadata = {
-  title: "Little Steps and palabras Pre-school",
-  description: "A warm and nurturing bilingual preschool for children ages 2-5",
-    generator: 'v0.dev'
-}
+const inter = Inter({ subsets: ["latin"] });
+
+export const metadata = {
+  title: "Little Steps and Palabras Pre-School",
+  description: "A warm and nurturing bilingual preschool for children ages 2–5",
+  generator: "v0.dev",
+};
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+}: {
+  children: React.ReactNode;
+}) {
   return (
-    <html lang="en">
-      <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${inter.className} bg-white text-gray-900`} suppressHydrationWarning>
+        <ClientLayout>
           {children}
-        </ThemeProvider>
+        </ClientLayout>
       </body>
     </html>
-  )
+  );
 }

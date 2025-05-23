@@ -8,8 +8,12 @@ export default function HeroSection() {
       <div className="container mx-auto px-4">
         <div className="grid items-center gap-8 md:grid-cols-2">
           <div className="text-center md:text-left">
-            <h1 className="mb-4 text-3xl font-bold text-primary md:text-4xl lg:text-5xl">
-              LITTLE STEPS AND PALABRAS PRE-SCHOOL
+
+            <p className="text-xl font-medium text-secondary mb-2 uppercase tracking-wide">
+              Bilingual Preschool
+            </p>
+            <h1 className="mb-4 text-4xl font-bold text-primary md:text-5xl lg:text-6xl">
+              Little Steps and Palabras Pre-School
             </h1>
             <p className="mb-6 text-lg text-muted-foreground md:text-xl">
               Where children learn, grow, and thrive in two languages.
@@ -18,7 +22,7 @@ export default function HeroSection() {
               <p className="font-bold text-primary text-xl">Registering now for school year 2025-26</p>
             </div>
             <div className="flex flex-col space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0 justify-center md:justify-start">
-              <Link href="#register">
+              <Link href="/register">
                 <Button size="lg" className="w-full sm:w-auto">
                   Register Now
                 </Button>
